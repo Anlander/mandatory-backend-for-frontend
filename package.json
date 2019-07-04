@@ -1,0 +1,39 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "mocha server/**/*.test.js",
+    "test-watch": "nodemon --exec 'npm test'"
+  },
+  "engines": {
+    "node": "10.15.3"
+  },
+  "author": "Philip",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "mongodb": "^3.2.7",
+    "mongoose": "^5.5.14",
+    "mustache": "^3.0.1",
+    "node": "^12.4.0",
+    "nodemon": "^1.19.1",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "expect": "^24.8.0",
+    "mocha": "^6.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anlander/mandatory-backend-for-frontend.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Anlander/mandatory-backend-for-frontend/issues"
+  },
+  "homepage": "https://github.com/Anlander/mandatory-backend-for-frontend#readme",
+  "description": ""
+}
